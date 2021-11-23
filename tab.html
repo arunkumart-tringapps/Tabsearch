@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabstyle.css">
+    <script src="tabevent.js"></script>
+    <title>Tab and search</title>
+</head>
+<body>
+    <div class="tab">
+        <button class="tabnav" onclick="openPlayer(event, 'CSK')">CSK</button>
+        <button class="tabnav" onclick="openPlayer(event, 'RCB')">RCB</button>
+        <button class="tabnav" onclick="openPlayer(event, 'MI')">MI</button>
+        <input type="text" id="checkPlayer" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+      <div class="team">
+      <div id="CSK" class="tabcontent">
+        <h3>DHONI</h3>
+        <p>
+            Mahendra Singh Dhoni, is a former international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He is currently the captain of Chennai Super Kings, a franchise based team of Indian Premier League.
+        </p>
+        
+      </div>
+      
+      <div id="RCB" class="tabcontent">
+        <h3>VIRAT</h3>
+        <p>
+            Virat Kohli is an Indian cricketer and the captain of India national cricket team in ODIs and Tests. He plays for Delhi in domestic cricket and Royal Challengers Bangalore in the Indian Premier League as a right-handed batsman. Kohli is considered as one of the best batsmen of his era.
+        </p> 
+      </div>
+      
+      <div id="MI" class="tabcontent">
+        <h3>ROHIT</h3>
+        <p>
+            Rohit Gurunath Sharma is an Indian international cricketer who captains the India national cricket team in T20Is. He also plays for Mumbai in domestic cricket and captains Mumbai Indians in the Indian Premier League as a right-handed batsman and an occasional right-arm off break bowler.
+        </p>
+        </div>
+    </div> 
+    <div class="player">
+        <h2>
+          PLAYERS
+      </h2>
+      <ul id="myList">
+          <li><a href="#">ABD</a></li>
+          <li><a href="#">Maxwel</a></li>
+          <li><a href="#">Siraj</a></li>
+          <li><a href="#">Padikal</a></li>
+          <li><a href="#">pant</a></li>
+          <li><a href="#">sherayas</a></li>
+          <li><a href="#">raina</a></li>
+          <li><a href="#">Bravo</a></li>
+      </ul>
+</div>
+</div>
+</body>
+</html>
