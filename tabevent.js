@@ -14,7 +14,7 @@ function openPlayer(evt,playerName) {
     evt.currentTarget.className += " active";
   }
   function myFunction() {
-    var input, filter, ul, li, a;
+    var input, filter, ul, li, a,i,txtValue;
     input = document.getElementById("checkPlayer");
     filter = input.value.toUpperCase();
     ul = document.getElementById("myList");
